@@ -8,9 +8,9 @@ var ALBUMS = [
     year: 2003,
     decade: "2000s",
     genre: "Rock",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/linkin_park_meteora.jpg",
     coverLabel: "METEORA",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nE-SkwNA6lYF99wd-MHzJVqThnUIJGe3I", sp: "https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3?si=aM0FyO6ySEOrDAA4BSTREw", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nE-SkwNA6lYF99wd-MHzJVqThnUIJGe3I", sp: "https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3?si=aM0FyO6ySEOrDAA4BSTREw", tg: "https://t.me/snmusicvault/53"
   },
   {
     name: "Graduation",
@@ -18,9 +18,9 @@ var ALBUMS = [
     year: 2007,
     decade: "2000s",
     genre: "Hip-Hop",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/kanye_graduation.jpg",
     coverLabel: "GRADUATION",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_n4negEHWAKSsnUfvxnK-hbGuYASJ1IBa4", sp: "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3?si=xCDjTnlaSLqpqXNlkiaH5A", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_n4negEHWAKSsnUfvxnK-hbGuYASJ1IBa4", sp: "https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3?si=xCDjTnlaSLqpqXNlkiaH5A", tg: "https://t.me/snmusicvault/38"
   },
   {
     name: "Random Access Memories",
@@ -28,9 +28,9 @@ var ALBUMS = [
     year: 2013,
     decade: "2010s",
     genre: "Electronic",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/daft_punk_random_access_memories.jpg",
     coverLabel: "RAM",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c", sp: "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=WRMsCb7eRl2rvxsXX_pOZQ", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c", sp: "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=WRMsCb7eRl2rvxsXX_pOZQ", tg: "https://t.me/snmusicvault/24"
   },
   {
     name: "AM",
@@ -38,9 +38,9 @@ var ALBUMS = [
     year: 2013,
     decade: "2010s",
     genre: "Rock",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/arctic_monkeys_a-m.jpg",
     coverLabel: "AM",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nw2f8Y7rbxFKNaDHwD7LRi0nvPNcT_bB8", sp: "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=bV3ftI1lRDuSJOA2OGSDjQ", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nw2f8Y7rbxFKNaDHwD7LRi0nvPNcT_bB8", sp: "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu?si=bV3ftI1lRDuSJOA2OGSDjQ", tg: "https://t.me/snmusicvault/67"
   },
   {
     name: "Discovery",
@@ -48,9 +48,9 @@ var ALBUMS = [
     year: 2001,
     decade: "2000s",
     genre: "Electronic",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/daft_punk_discovery.jpg",
     coverLabel: "DISCOVERY",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_mz6eafmqdRHSaR4IwG0ll6J6rgv0_ZpGw", sp: "https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc?si=5a9a871765f246ca", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_mz6eafmqdRHSaR4IwG0ll6J6rgv0_ZpGw", sp: "https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc?si=5a9a871765f246ca", tg: "https://t.me/snmusicvault/80"
   },
   {
     name: "Currents",
@@ -58,9 +58,9 @@ var ALBUMS = [
     year: 2015,
     decade: "2010s",
     genre: "Electronic",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/tame_impala_currents.jpg",
     coverLabel: "CURRENTS",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_lYdwxvfKoDIiUba2_Dh1Pc-zOLLANCwKY", sp: "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv?si=rotR7ddiQL-rPe0NmR0LMw", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_lYdwxvfKoDIiUba2_Dh1Pc-zOLLANCwKY", sp: "https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv?si=rotR7ddiQL-rPe0NmR0LMw", tg: "https://t.me/snmusicvault/95"
   },
   {
     name: "Lateralus",
@@ -68,9 +68,9 @@ var ALBUMS = [
     year: 2001,
     decade: "2000s",
     genre: "Metal",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/tool_lateralus.jpg",
     coverLabel: "LATERALUS",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_lA0kWh6Mkkj3mZhzV0vJ429vsjwmBzF_Y", sp: "https://open.spotify.com/album/5l5m1hnH4punS1GQXgEi3T?si=9Mb9hk2vQs6iCPt_BppbpA", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_lA0kWh6Mkkj3mZhzV0vJ429vsjwmBzF_Y", sp: "https://open.spotify.com/album/5l5m1hnH4punS1GQXgEi3T?si=9Mb9hk2vQs6iCPt_BppbpA", tg: "https://t.me/snmusicvault/109"
   },
   {
     name: "Blade Runner OST",
@@ -78,9 +78,9 @@ var ALBUMS = [
     year: 1982,
     decade: "2000s",
     genre: "Soundtracks",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/bladerunner_ost.jpg",
     coverLabel: "BLADE RUNNER",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_neLURwHRNsWnZouMq5K_vGitaXhlKEr4g", sp: "https://open.spotify.com/album/6NkuCdMz5tGmHbOXAWbtCW?si=Zu34q6E3Sguj6T_ZRwnMDA", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_neLURwHRNsWnZouMq5K_vGitaXhlKEr4g", sp: "https://open.spotify.com/album/6NkuCdMz5tGmHbOXAWbtCW?si=Zu34q6E3Sguj6T_ZRwnMDA", tg: "https://t.me/snmusicvault/123"
   },
   {
     name: "Selected Ambient Works",
@@ -88,9 +88,9 @@ var ALBUMS = [
     year: 1992,
     decade: "2000s",
     genre: "Ambient",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/aphex_twin_selected.jpg",
     coverLabel: "SAW 85-92",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_npVGHGqWs_-hTzVUivb8lCndQPVB7aIm0", sp: "https://open.spotify.com/album/7aNclGRxTysfh6z0d8671k?si=UAq8Ayz4SwKM0h0lfiAI-w", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_npVGHGqWs_-hTzVUivb8lCndQPVB7aIm0", sp: "https://open.spotify.com/album/7aNclGRxTysfh6z0d8671k?si=UAq8Ayz4SwKM0h0lfiAI-w", tg: "https://t.me/snmusicvault/136"
   },
   {
     name: "good kid, m.A.A.d city",
@@ -98,9 +98,9 @@ var ALBUMS = [
     year: 2012,
     decade: "2010s",
     genre: "Hip-Hop",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/kendrick_lamar_maadcity.jpg",
     coverLabel: "GKMC",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nSFpJd6fk5g2u7CcljXZCqauq_CHCoP58", sp: "https://open.spotify.com/album/0Oq3mWfexhsjUh0aNNBB5u?si=rm7Ge8U5QvGhPCBDkHRSTA", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_nSFpJd6fk5g2u7CcljXZCqauq_CHCoP58", sp: "https://open.spotify.com/album/0Oq3mWfexhsjUh0aNNBB5u?si=rm7Ge8U5QvGhPCBDkHRSTA", tg: "https://t.me/snmusicvault/150"
   },
   {
     name: "Demon Days",
@@ -108,9 +108,9 @@ var ALBUMS = [
     year: 2005,
     decade: "2000s",
     genre: "Pop",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/gorillaz_demon_days.jpg",
     coverLabel: "DEMON DAYS",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_msC_GYWaz8ESAiX9d41hRIs2uhcL8t_aw", sp: "https://open.spotify.com/album/0bUTHlWbkSQysoM3VsWldT?si=J0QKQhtyTYyNUOkXy0qAbw", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_msC_GYWaz8ESAiX9d41hRIs2uhcL8t_aw", sp: "https://open.spotify.com/album/0bUTHlWbkSQysoM3VsWldT?si=J0QKQhtyTYyNUOkXy0qAbw", tg: "https://t.me/snmusicvault/165"
   },
   {
     name: "In Rainbows",
@@ -118,9 +118,9 @@ var ALBUMS = [
     year: 2007,
     decade: "2000s",
     genre: "Underground",
-    cover: "",
+    cover: "https://cdn.jsdelivr.net/gh/staticnova/staticnova.github.io@main/jpg/alb/radiohead_inrainbows.jpg",
     coverLabel: "IN RAINBOWS",
-    yt: "https://music.youtube.com/playlist?list=OLAK5uy_m59x-hBFsC789l1_qWwFXwH3gjntwy_CA", sp: "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK?si=Zia80b17Ttq6247zF97jgQ", tg: "#"
+    yt: "https://music.youtube.com/playlist?list=OLAK5uy_m59x-hBFsC789l1_qWwFXwH3gjntwy_CA", sp: "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK?si=Zia80b17Ttq6247zF97jgQ", tg: "https://t.me/snmusicvault/13"
   },
 ];
 
