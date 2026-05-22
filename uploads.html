@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Staticnova :: UPLOADS</title>
+<link rel="stylesheet" href="wc/uploads.css">
+</head>
+<body>
+
+<!-- MARQUEE -->
+<div id="mq">
+  <marquee scrollamount="3">
+    &nbsp;&nbsp;
+    <b>[ MIRROR ACTIVE ]</b> <span>node-02 synced //</span>
+    <b>[ NOTICE ]</b> <span>All files scanned before posting //</span>
+    <b>[ WARNING ]</b> <span>Close tab if teacher walks by //</span>
+    &nbsp;&nbsp;
+  </marquee>
+</div>
+
+<!-- HEADER -->
+<div id="header">
+  <div id="hstats">
+    Mirror: <span class="on">ONLINE</span><br>
+  </div>
+  <h1>StaticNova</h1>
+  <div class="sub"><b>PRIVATE ARCHIVE NODE</b> // FILE REPOSITORY v1.4</div>
+  <div class="blink">Hide this tab if a teacher walks by.</div>
+</div>
+
+<!-- TOP NAV -->
+<div id="topnav">
+  <a href="index.html">Home</a>
+  <a href="uploads.html" class="active">Uploads</a>
+  <a href="music.html">Music Vault</a>
+  <a href="about.html">About Us</a>
+  <a href="#" onclick="panicClose()" class="danger">Panic</a>
+</div>
+
+<!-- FILTER BAR -->
+<div id="filter-bar">
+  <span class="fl">Type:</span>
+  <button class="fb active" data-ft="type" data-fv="all">ALL</button>
+  <button class="fb" data-ft="type" data-fv="pdf">PDF</button>
+  <button class="fb" data-ft="type" data-fv="doc">DOC</button>
+  <button class="fb" data-ft="type" data-fv="zip">ZIP</button>
+  <button class="fb" data-ft="type" data-fv="html">HTML</button>
+  <button class="fb" data-ft="type" data-fv="txt">TXT</button>
+  <div class="fsep"></div>
+  <span class="fl">Status:</span>
+  <button class="fb active" data-ft="status" data-fv="all">ALL</button>
+  <button class="fb" data-ft="status" data-fv="verified">VERIFIED</button>
+  <button class="fb" data-ft="status" data-fv="new">NEW</button>
+  <button class="fb" data-ft="status" data-fv="updated">UPDATED</button>
+  <button class="fb" data-ft="status" data-fv="safe">SAFE</button>
+  <button class="fb" data-ft="status" data-fv="archived">ARCHIVED</button>
+</div>
+
+<!-- PREVIEW POPUP -->
+<div id="prev-overlay" onclick="closePrev(event)">
+  <div id="prev-popup">
+    <div id="prev-head">
+      <span id="prev-title">FILE PREVIEW</span>
+      <button id="prev-close" onclick="closePrevDirect()">X</button>
+    </div>
+    <div id="prev-body"></div>
+    <div id="prev-foot">
+      <a id="prev-dl"  href="#" class="ub ub-dl"  style="flex:1;display:block;text-align:center;">[DOWNLOAD]</a>
+      <a id="prev-mir" href="#" class="ub ub-mir" style="flex:1;display:block;text-align:center;">[MIRROR]</a>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE -->
+<div id="page">
+
+  <div class="wb">
+    <b>&#9888;</b> DO NOT access during class or Computer Lab. Close tab if staff walks by.
+    This archive is <b>NOT affiliated</b> with any school. Use mirrors if main link is down.
+  </div>
+
+  <div id="layout">
+
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+      <div class="panel">
+        <div class="pt">:: MENU ::</div>
+        <div style="padding:0">
+          <a href="index.html" class="nl">Home</a>
+          <a href="uploads.html" class="nl active">Uploads</a>
+          <a href="music.html" class="nl">Music Vault</a>
+          <a href="about.html" class="nl">About Us</a>
+          <a href="https://freeboard.at/staticnova/" class="nl">Forum?</a>
+          <a href="#" onclick="panicClose()" class="nl danger">Logout.exe</a>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="pt c">:: ONLINE ::</div>
+        <div class="pb" style="padding:4px 5px">
+          <div class="mbr"><span class="don"></span>paperstreetghost</div>
+          <div class="mbr"><span class="don"></span>xXShadowXx</div>
+          <div class="mbr"><span class="doff"></span><span style="color:#282818">quezz8</span></div>
+          <div class="mbr" style="color:#1e1e12;font-size:8px">+13 anon</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">:: UPLOAD STATS ::</div>
+        <div class="pb">
+          <div style="font-family:'Courier New',monospace;font-size:9px;color:#3a3a2a;line-height:2">
+            Files: <span style="color:var(--cyan)">3</span><br>
+            Mirror: <span style="color:#44ff44">ACTIVE</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="pt">:: TRUSTED USERS ::</div>
+        <div class="pb" style="padding:4px 6px">
+          <div style="font-family:'Courier New',monospace;font-size:9px;color:#3a3a2a;line-height:1.9">
+            <span style="color:#7777aa">@paperstreetghost</span><br>
+            <span style="color:#556644">@xXShadowXx</span><br>
+            <span style="color:#3a3a2a">@quezz8</span><br>
+            <span style="color:#3a3a2a">@biomaster05</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <div id="main">
+
+      <!-- INTRO -->
+      <div class="panel">
+        <div class="pt c">UPLOADS // ARCHIVE OVERVIEW</div>
+        <div class="pb">
+          <p class="ann">
+            Latest uploads from <b>trusted users</b>. Files are scanned before posting.
+            Use <span class="c">mirrors</span> if the main download link is offline.
+            All content verified by <span class="c">@paperstreetghost</span>.
+          </p>
+          <p class="ann" style="color:#666652;font-size:10px">
+            New files added weekly. If a file shows <b>ARCHIVED</b> the original link may be down —
+            use the mirror. Do not share this URL outside of trusted circles.
+          </p>
+        </div>
+      </div>
+
+      <!-- GRID PANEL -->
+      <div class="panel">
+        <div class="pt c">
+          FILE REPOSITORY
+          <span id="fc-label" style="color:var(--t3);font-weight:normal;letter-spacing:0;margin-left:8px"></span>
+        </div>
+        <div class="pb" style="padding:6px">
+
+          <!-- view toggle -->
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;flex-wrap:wrap;gap:4px;">
+            <div id="file-count"><span id="fc-num">0</span> files shown</div>
+            <div id="view-toggle">
+              <button class="vt-btn active" id="vt-grid" onclick="setView('grid')">&#9646;&#9646; GRID</button>
+              <button class="vt-btn" id="vt-table" onclick="setView('table')">&#8801; TABLE</button>
+            </div>
+          </div>
+
+          <!-- GRID VIEW -->
+          <div id="upload-grid"></div>
+
+          <!-- TABLE VIEW -->
+          <div id="upload-table" style="display:none;overflow-x:auto;-webkit-overflow-scrolling:touch;">
+            <table class="ftable">
+              <thead>
+                <tr>
+                  <th>File</th>
+                  <th>Type</th>
+                  <th>Size</th>
+                  <th>By</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>DL</th>
+                </tr>
+              </thead>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+
+          <div class="sbar"> Mirror: <span class="gr">ACTIVE</span>
+            &nbsp;|&nbsp; Node: <span>staticnova-02</span>
+          </div>
+          <div style="font-family:'Courier New',monospace;font-size:8px;color:#1e2018;margin-top:5px;text-align:right">
+            click card to preview &nbsp;// &nbsp;hover for glow
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+  <span>Last updated: May 2026 &nbsp;|&nbsp; Mirror: ACTIVE &nbsp;|&nbsp; Node v1.4</span><br>
+  <span style="color:#1a1a10">&copy; Staticnova (since 2026) &nbsp;//&nbsp; Not affiliated with any school.</span>
+</div>
+
+<script src="wc/uploads.js">
+</script>
+
+</body>
+</html>
